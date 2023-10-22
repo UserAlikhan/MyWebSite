@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Каталог книг</title>
+
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="leftMenu">
+            <input type="text" class="search" placeholder="Введите что-то..." name="searchBar">
+            <h1>Каталог</h1>
+            <div class="cats">
+                <span class="cat">Tech</span>
+                <span class="cat">Econom</span>
+                <span class="cat">Art</span>
+            </div>
+            <h1>Настройка по цене</h1>
+            <div class="price">
+                <input type="range" class="priceRange">
+                <span class="priceValue">$ Деньга</span>
+            </div>
+        </div>
+        <div class="content">
+            <div class="products">
+                <div class="product">
+                    <img src="https://www.realsimple.com/thmb/-peF-thNTibpA5iArNXU693CTn8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/great-books-to-read-normal-people-crop-0649ede28a2144808e96aed6a1600aed.jpg"
+                         alt="">
+                    <span class="name">Книга</span>
+                    <span class="priceText">100 рублей</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../BookShow.jsx"></script>
+</body>
+</html>

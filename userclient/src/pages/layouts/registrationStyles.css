@@ -1,0 +1,86 @@
+.sectionClass{
+    background: #84fab0;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+}
+.mask{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.form-control{
+    margin-bottom: 25px;
+}
+
+.text-uppercase{
+    justify-content: center;
+}
+
+.card {
+    border-radius: 15px;
+}
+.container{
+    height: 100%;
+}
+
+.card-body{
+    width: 590px;
+    height: 590px;
+    background: none;
+    padding: 5px;
+}
+
+.cs1Password{
+    padding-bottom: 150px;
+}
+
+.h2teg{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+.cs1{
+    padding: 10px;
+    margin-bottom: 1rem;
+}
+
+.formCheck{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.formCheckInput{
+    margin-right: 0.5rem;
+}
+
+.buttonReg{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    display: block;
+    width: 100%;
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.pTag{
+    text-align: center;
+    color: #888;
+    margin-top: 3rem;
+    margin-bottom: 0;
+}
+
+.aTag{
+    font-weight: bold;
+    color: #333333;
+}

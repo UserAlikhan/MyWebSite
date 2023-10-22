@@ -1,0 +1,159 @@
+.App{
+    display: flex;
+    padding: initial;
+    align-items: normal;
+    justify-content: normal;
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    margin-left: 20%;
+    display: flex;
+    flex: 1;
+    padding: 50px;
+    margin-top: 35px;
+}
+
+.search{
+    padding: 10px;
+    width: 200px;
+    border: 1px solid grey;
+}
+
+h1{
+    font-size: 30px;
+    color: #555555;
+    font-weight: 300;
+}
+
+.cats{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cat{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 5px;
+}
+
+.leftMenu {
+    margin-top: 70px;
+    margin-left: 30px   ;
+    width: 20%; /* Ширина левого меню составляет 25% экрана */
+    position: absolute;
+    top: 35px;
+    left: 0;
+    bottom: 0;
+    flex: 1;
+    justify-content: start;
+    /* Другие стили по вашему усмотрению */
+}
+.priceValue{
+    display: flex;
+    align-content: center;
+}
+
+.content{
+    flex: 4;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.product{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+img{
+    width: 170px;
+    height: 200px;
+    object-fit: cover;
+
+}
+
+.name{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.priceText{
+    margin-bottom: 1px;
+}
+
+.delete{
+    margin-bottom: 15px;
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav {
+    background-color: #08088c;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed; /* Сделать NavBar фиксированным */
+    top: 0;
+    left: 0; /* Расположение слева */
+    /*border-bottom: 1px solid #ccc; !* Граница снизу NavBar *!*/
+    /*z-index: 1; !* Установить z-index, чтобы NavBar был выше остальных элементов *!*/
+}
+nav .logo {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    padding-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.ChangeAcc {
+    text-decoration: none;
+    color: red;
+}
+
+/* Стилизация активной ссылки (если это навигационное меню) */
+nav a:hover {
+    color: #00f; /* Цвет текста при наведении */
+}
+
+.image-button {
+    background-image: url("../../images/AddBtn.png");
+    background-size: cover;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    bottom: 10px;
+}
